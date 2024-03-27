@@ -9,7 +9,7 @@ import logo from "../photos/logo.png";
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary p-0">
-      <Container fluid>
+      <Container fluid style={{ height: "70px" }}>
         <Navbar.Brand href="#">
           <Image src={logo} rounded style={{ width: "200px" }} />
         </Navbar.Brand>
@@ -27,7 +27,7 @@ function NavScrollExample() {
             <Nav.Link href="#action5">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex ">
-            <Button variant="outline-secondary">Login</Button>
+            <Button variant="outline-dark">Login</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
