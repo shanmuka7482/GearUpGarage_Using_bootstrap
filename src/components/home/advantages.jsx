@@ -3,10 +3,10 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
-import img1 from "../photos/advantages/f1.png";
-import img2 from "../photos/advantages/f2.png";
-import img3 from "../photos/advantages/f3.png";
-import img4 from "../photos/advantages/f4.png";
+import img1 from "../../photos/advantages/f1.png";
+import img2 from "../../photos/advantages/f2.png";
+import img3 from "../../photos/advantages/f3.png";
+import img4 from "../../photos/advantages/f4.png";
 
 const images = [
   {
@@ -108,7 +108,8 @@ export default function ButtonBaseDemo() {
           letterSpacing: "2px",
           fontSize: "1.725rem",
         }}
-        color={"#434454"}
+        color="primary"
+        style={{ margin: "3%" }}
       >
         ▶ Advantages of GearUpGarage
       </Typography>

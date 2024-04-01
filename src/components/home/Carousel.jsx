@@ -1,7 +1,8 @@
 import Carousel from "react-bootstrap/Carousel";
-import img1 from "../photos/slideshow-1.png";
-import img2 from "../photos/slideshow-2.jpg";
-import img3 from "../photos/slideshow-3.jpg";
+import img1 from "../../photos/slideshow-1.png";
+import img2 from "../../photos/slideshow-2.jpg";
+import img3 from "../../photos/slideshow-3.jpg";
+
 function DarkVariantExample() {
   return (
     <div>

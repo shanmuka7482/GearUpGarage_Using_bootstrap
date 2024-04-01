@@ -1,3 +1,7 @@
-body {
-  color: #434454;
+h1,
+h2,
+h3,
+h4,
+p {
+  color: "#434454" !important;
 }

@@ -8,7 +8,7 @@ import Looks3RoundedIcon from "@mui/icons-material/Looks3Rounded";
 import Looks4RoundedIcon from "@mui/icons-material/Looks4Rounded";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-
+// import image from "../photos/sec_2bg.jpg";
 const Sec_2 = () => {
   return (
     <Box
@@ -17,25 +17,29 @@ const Sec_2 = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        minHeight: "80vh",
-        ml: 16,
+        my: 5,
+        py: 5,
       }}
+      //style={{ backgroundImage: `URL(https://mangaclash.com/wp-content/themes/madara/images/bg-search.jpg)`,backgroundRepeat:"no-repeat" }}
     >
       <Grid container spacing={4} maxWidth="lg" justifyContent="center">
         <Grid item xs={4}>
           <Box sx={{ mb: 5 }}>
-            <h2>
-              <b> How It Works</b>
-            </h2>
+            <h2 color="primary">How It Works</h2>
           </Box>
           <Box sx={{ mb: 5 }}>
-            <p>
+            <p color="primary">
               GearUpGarage simplifies the process of servicing or repairing your
               vehicle, ensuring convenience and simplicity.
             </p>
           </Box>
           <Form className="d-flex ">
-            <Button variant="outline-dark" style={{    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",}}>Get Started</Button>
+            <Button
+              variant="outline-dark"
+              style={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" }}
+            >
+              Get Started
+            </Button>
           </Form>
         </Grid>
         <Grid item xs={8}>
@@ -46,11 +50,10 @@ const Sec_2 = () => {
               my={4}
               p={2}
               sx={{
-                border: "2px solid grey",
+                // border: "1px solid grey",
                 borderRadius: "15px",
                 display: "flex",
                 flexDirection: "column",
-
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
               }}
             >
@@ -64,7 +67,7 @@ const Sec_2 = () => {
               my={4}
               p={2}
               sx={{
-                border: "2px solid grey",
+                // border: "1px solid grey",
                 borderRadius: "15px",
                 display: "flex",
                 flexDirection: "column",
@@ -84,7 +87,7 @@ const Sec_2 = () => {
               my={4}
               p={2}
               sx={{
-                border: "2px solid grey",
+                // border: "1px solid grey",
                 borderRadius: "15px",
                 display: "flex",
                 flexDirection: "column",
@@ -102,7 +105,7 @@ const Sec_2 = () => {
               my={4}
               p={2}
               sx={{
-                border: "2px solid grey",
+                // border: "1px solid grey",
                 borderRadius: "15px",
                 display: "flex",
                 flexDirection: "column",

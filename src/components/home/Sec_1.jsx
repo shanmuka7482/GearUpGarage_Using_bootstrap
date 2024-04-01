@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "space-between",
     borderRadius: theme.spacing(2),
-    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)"
   },
 }));
 
