@@ -8,9 +8,11 @@ import Looks3RoundedIcon from "@mui/icons-material/Looks3Rounded";
 import Looks4RoundedIcon from "@mui/icons-material/Looks4Rounded";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { Container } from "@material-ui/core";
 // import image from "../photos/sec_2bg.jpg";
 const Sec_2 = () => {
   return (
+    <Container maxWidth="lg">
     <Box
       component="section"
       sx={{
@@ -121,6 +123,7 @@ const Sec_2 = () => {
         </Grid>
       </Grid>
     </Box>
+    </Container>
   );
 };
 
