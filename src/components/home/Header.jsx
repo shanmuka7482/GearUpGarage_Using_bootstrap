@@ -5,7 +5,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
 import logo from "../../photos/logo.png";
-
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary p-0">
@@ -20,11 +19,11 @@ function NavScrollExample() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#action2">About</Nav.Link>
-            <Nav.Link href="#action3">Services</Nav.Link>
+            <Nav.Link href="/Service">Services</Nav.Link>
             <Nav.Link href="#action4">FAQs</Nav.Link>
-            <Nav.Link href="#action5">Contact</Nav.Link>
+            <Nav.Link href="/Contact_Us">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex ">
             <Button variant="outline-dark">Login</Button>

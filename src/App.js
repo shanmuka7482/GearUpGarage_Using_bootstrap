@@ -1,14 +1,14 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Home from "./components/home/Home";
-import Service from "./components/Serivice/Serice";
-import Contact from "./components/Contact_Us/Contact_us";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/home/footer";
+import Header from "./components/home/Header"
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      {/* <Service/> */}
-      <Contact />
+      <Header />
+      <Outlet/>
+      <Footer/>
     </div>
   );
 }
