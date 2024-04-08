@@ -1,6 +1,6 @@
-import "../../App.css";
-import Heading from "./Heading.jsx";
-import Main from "./Main.jsx";
+import "../App.css";
+import Heading from "../components/Serivice/Heading.jsx";
+import Main from "../components/Serivice/Main.jsx";
 function Service() {
   return (
     <div className="App">

@@ -4,12 +4,12 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
-import logo from "../../photos/logo.png";
+import logo from "../photos/logo.png";
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary p-0">
       <Container fluid style={{ height: "70px" }}>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <Image src={logo} rounded style={{ width: "200px" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -25,8 +25,8 @@ function NavScrollExample() {
             <Nav.Link href="#action4">FAQs</Nav.Link>
             <Nav.Link href="/Contact_Us">Contact</Nav.Link>
           </Nav>
-          <Form className="d-flex ">
-            <Button variant="outline-dark">Login</Button>
+          <Form className="d-flex "><Nav.Link href="/Login">
+            <Button variant="outline-dark">Login</Button></Nav.Link>
           </Form>
         </Navbar.Collapse>
       </Container>
