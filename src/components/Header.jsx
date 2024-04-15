@@ -22,7 +22,7 @@ function NavScrollExample() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#action2">About</Nav.Link>
             <Nav.Link href="/Service">Services</Nav.Link>
-            <Nav.Link href="#action4">FAQs</Nav.Link>
+            <Nav.Link href="/Faq">FAQs</Nav.Link>
             <Nav.Link href="/Contact_Us">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex "><Nav.Link href="/Login">

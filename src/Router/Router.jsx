@@ -5,6 +5,7 @@ import Service from "../Pages/Service";
 import ContactUs from "../Pages/ContactUs"
 import Login from "../Pages/Login"
 import SignUp from "../Pages/Signup";
+import Faq from "../Pages/Faq";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/Signup",
         element: <SignUp />,
+      },
+      {
+        path: "/Faq",
+        element: <Faq />,
       },
     ],
   },
