@@ -6,6 +6,8 @@ import ContactUs from "../Pages/ContactUs"
 import Login from "../Pages/Login"
 import SignUp from "../Pages/Signup";
 import Faq from "../Pages/Faq";
+import About from "../Pages/About";
+
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/Faq",
         element: <Faq />,
+      },
+      {
+        path: "/About",
+        element: <About />,
       },
     ],
   },
