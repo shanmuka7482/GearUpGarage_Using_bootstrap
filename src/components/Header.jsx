@@ -20,7 +20,7 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
+            <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="/Service">Services</Nav.Link>
             <Nav.Link href="/Faq">FAQs</Nav.Link>
             <Nav.Link href="/Contact_Us">Contact</Nav.Link>
