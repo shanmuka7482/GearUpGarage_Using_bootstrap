@@ -28,14 +28,14 @@ const Footer = () => {
           </Grid>
           <Grid item>
             <Link
-              href="https://github.com/Haranarayanakarthik"
+              href="https://github.com/PoornaSandeepAnde"
               color="inherit"
               underline="none"
             >
               <GitHubIcon sx={{ fontSize: 25, mr: 1 }} color="secondary" />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/kommaraju-hara-narayana-karthik-564917258/"
+              href="https://www.linkedin.com/in/charan-lakkimsetti-744888258/"
               color="inherit"
               underline="none"
             >
