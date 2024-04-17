@@ -26,7 +26,7 @@ const About = () => {
             paddingBottom: "15px",
           }}
         >
-          About Me
+          About Us
         </Typography>
       </Box>
       <Box sx={{ maxWidth: "50%", textAlign: "left", pl: 8,pt:5}}>
